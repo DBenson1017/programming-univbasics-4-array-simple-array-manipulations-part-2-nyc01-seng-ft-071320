@@ -23,7 +23,6 @@ ary1.delete(string)
 end 
 
 using_delete_at(ary1, integer)
-ary1.delete_at
-
+ary1.delete_at(integer)
 end 
 
