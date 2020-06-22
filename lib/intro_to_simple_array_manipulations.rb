@@ -7,19 +7,23 @@ def using_insert(ary1, element)
   
 end 
 
-def uniq 
+def using_uniq(ary1)
+  ary1.uniq
   
 end 
 
-using_flatten 
+using_flatten(ary1)
+ary1.flatten 
 
 end 
 
-using_delete
+using_delete(ary1, string)
+ary1.delete(string)
 
 end 
 
-using_delete_at 
+using_delete_at(ary1, integer)
+ary1.delete_at
 
 end 
 
